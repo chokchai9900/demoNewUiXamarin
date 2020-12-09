@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="demoNewUiXamarin.DangAndDropDemo">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Rectangle Stroke="red"
+                       Fill="blue"
+                       StrokeThickness="4"
+                       HeightRequest="200"
+                       WidthRequest="200"
+                       HorizontalOptions="Center"
+                       >
+                <Rectangle.GestureRecognizers>
+                    <DragGestureRecognizer CanDrag="True"
+                                           DragStarting="DragGestureRecognizer_DragStarting"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Frame CornerRadius="0"
+               HasShadow="False"
+               BackgroundColor="Silver"
+               HeightRequest="200">
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True"
+                                       Drop="DropGestureRecognizer_Drop" />
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

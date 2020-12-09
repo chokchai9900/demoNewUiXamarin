@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hTn2HQNn+InwGSLPMNFzjIdMnLWVNNbqkxWWMJialLAxK6mKogP57i5RmA0jIC7G+BgvJHgnrj4u0udOYttmXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BloodRainz\\source\\repos\\demoNewUiXamarin\\demoNewUiXamarin\\demoNewUiXamarin.iOS\\demoNewUiXamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BloodRainz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\BloodRainz\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.0-pre5\\xamarin.communitytoolkit.1.0.0-pre5.nupkg.sha512",
+    "C:\\Users\\BloodRainz\\.nuget\\packages\\xamarin.essentials\\1.6.0-pre5\\xamarin.essentials.1.6.0-pre5.nupkg.sha512",
+    "C:\\Users\\BloodRainz\\.nuget\\packages\\xamarin.forms\\5.0.0.1791-pre5\\xamarin.forms.5.0.0.1791-pre5.nupkg.sha512"
+  ],
+  "logs": []
+}

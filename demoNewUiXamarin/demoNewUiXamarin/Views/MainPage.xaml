@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:demoNewUiXamarin"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="demoNewUiXamarin.MainPage">
+
+    <ScrollView>
+
+        <StackLayout>
+            <StackLayout.Background>
+                <LinearGradientBrush EndPoint="1,1">
+                    <GradientStop Color="RosyBrown"
+                                  Offset="0.1"/>
+                    <GradientStop Color="Wheat"
+                                  Offset="1.0"/>
+                </LinearGradientBrush>
+            </StackLayout.Background>
+            <Frame
+            Padding="24"
+            CornerRadius="10">
+                <Frame.Background>
+                    <!--StartPoint defaults to (0,0)-->
+                    <LinearGradientBrush EndPoint="1,1">
+                        <GradientStop Color="DarkViolet"
+                                  Offset="0.1"/>
+                        <GradientStop Color="DeepPink"
+                                  Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <Label Text="Deom new xamarin ui pilot" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+
+            <xct:Expander>
+                <xct:Expander.Header>
+                    <Label Text="Baboon"
+               FontAttributes="Bold"
+               FontSize="Medium" />
+                </xct:Expander.Header>
+                <Grid Padding="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"
+               Aspect="AspectFill"
+               HeightRequest="120"
+               WidthRequest="120" />
+                    <Label Grid.Column="1"
+               Text="Baboons are African and Arabian Old World monkeys belonging to the genus Papio, part of the subfamily Cercopithecinae."
+               FontAttributes="Italic" />
+                </Grid>
+            </xct:Expander>
+
+            <Frame
+            Margin="10"
+            CornerRadius="10">
+
+                <Frame.Background>
+                    <!--StartPoint defaults to (0,0)-->
+                    <LinearGradientBrush EndPoint="1,1">
+                        <GradientStop Color="CadetBlue"
+                                  Offset="0.1"/>
+                        <GradientStop Color="LightSkyBlue"
+                                  Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <Label Text="SwipeView events" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Type views:SwipeViewDemo}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame
+            Margin="10"
+            CornerRadius="10">
+
+                <Frame.Background>
+                    <!--StartPoint defaults to (0,0)-->
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="CadetBlue"
+                                  Offset="0.1"/>
+                        <GradientStop Color="LightSkyBlue"
+                                  Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <Label Text="CarouselView events" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Type views:CarouselViewDemo}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame
+            Margin="10"
+            CornerRadius="10">
+
+                <Frame.Background>
+                    <!--StartPoint defaults to (0,0)-->
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="CornflowerBlue"
+                                  Offset="0.1"/>
+                        <GradientStop Color="DeepSkyBlue"
+                                  Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <Label Text="DangAndDrop events" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="{x:Type views:DangAndDropDemo}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame
+            Margin="10"
+            CornerRadius="10">
+
+                <Frame.Background>
+                    <!--StartPoint defaults to (0,0)-->
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="CornflowerBlue"
+                                  Offset="0.1"/>
+                        <GradientStop Color="DeepSkyBlue"
+                                  Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <Label Text="Massage Toast events" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                    Tapped="TapGestureRecognizer_Tapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame
+            Margin="10"
+            CornerRadius="10">
+
+                <Frame.Background>
+                    <!--StartPoint defaults to (0,0)-->
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="CornflowerBlue"
+                                  Offset="0.1"/>
+                        <GradientStop Color="DeepSkyBlue"
+                                  Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <Label Text="Snackbar events" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                    Tapped="TapGestureRecognizer_Tapped_1"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Grid RowDefinitions="auto,auto" ColumnDefinitions="auto,*">
+                <xct:AvatarView Text="Jo" Size="60" Color="Violet" TextColor="White"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="Joshape"/>
+                <BoxView Grid.Row="1" Grid.ColumnSpan="2" HeightRequest="1" BackgroundColor="LightGray"/>
+            </Grid>
+            
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

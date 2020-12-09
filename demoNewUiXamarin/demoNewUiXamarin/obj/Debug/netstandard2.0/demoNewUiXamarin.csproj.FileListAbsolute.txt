@@ -1,0 +1,17 @@
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\bin\Debug\netstandard2.0\demoNewUiXamarin.deps.json
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\bin\Debug\netstandard2.0\demoNewUiXamarin.dll
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\bin\Debug\netstandard2.0\ref\demoNewUiXamarin.dll
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\bin\Debug\netstandard2.0\demoNewUiXamarin.pdb
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\demoNewUiXamarin.csprojAssemblyReference.cache
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\demoNewUiXamarin.AssemblyInfoInputs.cache
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\demoNewUiXamarin.AssemblyInfo.cs
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\demoNewUiXamarin.csproj.CoreCompileInputs.cache
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\demoNewUiXamarin.dll
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\ref\demoNewUiXamarin.dll
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\demoNewUiXamarin.pdb
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\Views\SwipeViewDemo.xaml.g.cs
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\Views\CarouselViewDemo.xaml.g.cs
+C:\Users\BloodRainz\source\repos\demoNewUiXamarin\demoNewUiXamarin\demoNewUiXamarin\obj\Debug\netstandard2.0\Views\DangAndDropDemo.xaml.g.cs

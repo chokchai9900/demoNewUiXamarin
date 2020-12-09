@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:demoNewUiXamarin.ViewModel"
+             x:Class="demoNewUiXamarin.CarouselViewDemo">
+    <ContentPage.BindingContext>
+        <viewmodels:MonkeysViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <StackLayout.Background>
+            <LinearGradientBrush EndPoint="1,1">
+                <GradientStop Color="#3499FF"
+                                  Offset="0.1"/>
+                <GradientStop Color="#3A3985"
+                                  Offset="1.0"/>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+        <CarouselView ItemsSource="{Binding Monkeys}"
+                      IndicatorView="indicatorView">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame HasShadow="True"
+                               CornerRadius="5"
+                               Margin="50"
+                               HeightRequest="300"
+                               HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand">
+                            <Frame.Background>
+                                <!-- StartPoint defaults to (0,0) -->
+                                <LinearGradientBrush EndPoint="1,3">
+                                    <GradientStop Color="#7b4397"
+                                  Offset="0.1"/>
+                                    <GradientStop Color="#dc2430"
+                                  Offset="1.0"/>
+                                </LinearGradientBrush>
+                            </Frame.Background>
+                            <StackLayout>
+                                <Label Text="{Binding Name}" 
+                                       FontAttributes="Bold"
+                                       FontSize="Large"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" 
+                                       TextColor="White"/>
+                                <Image Source="{Binding ImageUrl}" 
+                                       Aspect="AspectFill"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
+                                       HorizontalOptions="Center"/>
+                                <Label Text="{Binding Location}"
+                                       HorizontalOptions="Center" 
+                                       TextColor="White"/>
+                                <Label Text="{Binding Details}"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       MaxLines="5"
+                                       LineBreakMode="TailTruncation" 
+                                       TextColor="White"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+        <IndicatorView x:Name="indicatorView"
+                       MaximumVisible="6"
+                       Margin="0,0,0,40"
+                       IndicatorColor="Violet"
+                       SelectedIndicatorColor="DarkGray"
+                       HorizontalOptions="Center" 
+                       IndicatorsShape="Circle"/>
+    </StackLayout>
+</ContentPage>
